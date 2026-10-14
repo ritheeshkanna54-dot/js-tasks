@@ -41,7 +41,6 @@ while (again) {
             multiplicationTable(num);
 
             console.log("Triangle Pattern:");
-
             for (let i = 1; i <= num; i++) {
                 let row = "";
 

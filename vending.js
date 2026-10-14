@@ -99,7 +99,6 @@ function startMachine() {
 
                     console.log("Selected item: " + itemName);
                     console.log("Change returned: $" + change);
-
                     finishPurchase(itemName, itemNumber);
                 }
             }
@@ -107,7 +106,7 @@ function startMachine() {
 
         runAgain = confirm("Would you like to make another purchase?");
     }
-
+.36
     alert("Thank you for using the Smart Vending Machine. Have a great day!");
 }
 
